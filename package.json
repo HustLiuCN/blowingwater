@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=development webpack-dev-server --color"
+    "start": "NODE_ENV=development webpack-dev-server --color",
+    "server": "egg-bin dev --port 2001"
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "egg": "^2.23.0",
     "moment": "^2.23.0",
     "vue": "^2.5.17",
     "vue-router": "^3.0.2",
@@ -22,6 +24,7 @@
     "babel-loader": "^8.0.4",
     "clean-webpack-plugin": "^1.0.0",
     "css-loader": "^1.0.1",
+    "egg-bin": "^4.13.0",
     "eslint": "^5.9.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-import-resolver-webpack": "^0.10.1",
