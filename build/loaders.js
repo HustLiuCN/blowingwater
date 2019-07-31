@@ -26,7 +26,7 @@ const rules = [
 		test: /\.css$/,
 		use: [
 			config.isDev ? 'vue-style-loader' : MiniCssExtractPlugin.loader,
-			'css-loader'
+			'css-loader',
 		],
 	}, {
 		test: /\.js$/,
