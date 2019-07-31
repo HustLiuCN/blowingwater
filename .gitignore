@@ -6,5 +6,4 @@ dist/
 logs/
 *.log
 run/
-build/
 dev-server.js
